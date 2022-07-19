@@ -2,8 +2,11 @@
 esp32 prog for connected hive measurements
 
 Connected beehive balance measuring weight, hive temp, outdoor temp et humidity. 
-Connect to remote view webapp to be implemented on raspberry pi. Connection through GSM
-Send alert to owner cellphone on parametrable sudent weight of loss (swarming alert)
+Connect to remote view webapp to be implemented on raspberry pi. 
+Data trasnfer through GSM. 
+
+The data are sent from hive balance to remote raspberry app. see other part of project. 
+In case of sudden loss of weight, the balance send an alert to owner cellphone(swarming alert) 
 
 
 # Hardware: 
